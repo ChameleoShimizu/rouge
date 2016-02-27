@@ -1,0 +1,75 @@
+body {
+	background: #000000 url("image/dokutu.gif");
+	margin: 0;
+  padding-top: 100px;
+}
+
+#container {
+  width: 440px;
+  height: 360px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#monitor {
+  border: #fff5c5 solid 2px;
+  background: #1F1003;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 440px;
+	height: 360px;
+	overflow: hidden;
+	z-index: 3;
+}
+
+#world {
+	position:absolute;
+	z-index: 0;
+}
+
+#view {
+  background: #000000;
+ 	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+#player {
+	position:absolute;
+	z-index: 2;
+}
+
+#help {
+  color: #ffffff;
+	position: absolute;
+	width: 220px;
+	height: 90px;
+  left: 10px;
+  top: 310px;
+	z-index: 3;
+}
+
+#playerstatus {
+  color: #ffffff;
+	position: absolute;
+	width: 220px;
+	height: 30px;
+  left: 370px;
+  top: 340px;
+	z-index: 3;
+}
+
+#navi {
+  border: #333333 solid 2px;
+  background: #111111;
+  color: #eeeeee;
+	position: absolute;
+  left: 0px;
+  top: 364px;
+  padding: 10px;
+  width: 420px;
+  height: 80px;
+	z-index: 3;
+}
